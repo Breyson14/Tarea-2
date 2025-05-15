@@ -29,12 +29,18 @@ finalmente mostrar el tiempo que tardó cada uno de los algoritmos en ordenar lo
 
 ## Ejemplos
 
-## Ejemplo 1, Arreglo con tamano 10
+## Ejemplo 1. Arreglo con tamano 10
 
 ![Image](https://github.com/user-attachments/assets/17ba2bed-b221-4f53-adfb-2c92b971557c)
 
-## Ejemplo 2, Arreglo con tamano 100
+## Ejemplo 2. Arreglo con tamano 100
 
-## Ejemplo 3, Arreglo con tamano 1000
+![Image](https://github.com/user-attachments/assets/6653350a-45b5-4f54-b3c2-b707c7b8837a)
 
-## Ejemplo 4, Arreglo con tamano 10 000
+## Ejemplo 3. Arreglo con tamano 1000
+
+![Image](https://github.com/user-attachments/assets/b35406d9-1dc3-480a-99e6-dfb070aac1ad)
+
+## Ejemplo 4. Arreglo con tamano 10 000
+
+![Image](https://github.com/user-attachments/assets/d424929d-68dd-4220-9f8f-fe5a20f3367d)
