@@ -11,20 +11,13 @@ arreglo (10, 100, 1000, 10000).
 ## Como funciona el codigo?
 
  Al comenzar, el programa le pide al usuario que ingrese el tamaño del arreglo con scanf, y con ese valor se reserva memoria para tres arreglos usando 
- malloc. Uno de esos arreglos se llena con números aleatorios generados por la función rand(), dentro de generar_arreglo, que usa un ciclo for para asignar
- valores aleatorios entre 0 y 9999 a cada posición. Luego, se crean dos copias de ese arreglo original utilizando copiar_arreglo, para que cada algoritmo 
- trabaje con los mismos datos, asegurando una comparación justa. Esto también evita alterar el arreglo original antes de aplicar el segundo método. Después,
- el código mide el tiempo que toma cada algoritmo utilizando clock() antes y después de las funciones bubble_sort y selection_sort. El tiempo se calcula en
- segundos con la constante CLOCKS_PER_SEC. En la función bubble_sort, se usan dos bucles for anidados para comparar elementos vecinos y cambiarlos de lugar
- si están en el orden incorrecto. En selection_sort, se busca el valor más pequeño en el resto del arreglo y se intercambia con la posición actual. 
- Al final, se muestran los tiempos de ejecución en pantalla con printf, y se libera la memoria de los tres arreglos con free() para evitar fugas. 
+ malloc. Uno de esos arreglos se llena con números aleatorios generados por la función rand(), dentro de generar_arreglo, que usa un ciclo for para asignar valores aleatorios a cada posición. Luego, se crean dos copias de ese arreglo original utilizando copiar_arreglo, para que cada algoritmo 
+ trabaje con los mismos datos, asegurando una comparación en igualdad de condiciones. Esto también evita alterar el arreglo original antes de aplicar el segundo método. Después,el código mide el tiempo que toma cada algoritmo utilizando clock() antes y después de las funciones bubble_sort y selection_sort. El tiempo se calcula ensegundos con la constante CLOCKS_PER_SEC. En la función bubble_sort, se usan dos bucles for anidados para comparar elementos vecinos y cambiarlos de lugar si están en el orden incorrecto. En selection_sort, se busca el valor más pequeño en el resto del arreglo y se intercambia con la posición actual. Al final, se muestran los tiempos de ejecución en pantalla con printf, y se libera la memoria de los tres arreglos con free() para evitar fugas de memoria. 
 
 ## Compilacion y Ejecucion
 
 Para compilar el programa, primero hay que de tener instalado el compilador GCC. Luego, abrir una terminal y dirigirnos hasta la carpeta donde
-guardo el archivo llamado T2_C31049.c. Luego, hay que escribir el comando gcc T2_C31049.c -o T2_C31049, esto compila el codigo y nos indica si hay errores; 
-si todo esta correcto se creará un archivo ejecutable llamado T2_C31049. Uan vez haciedno esto se puede ejecutar el programa escribiendo ./T2_C31049 en la
-misma terminal. Al correrlo, el programa pedirá ingresar el tamaño del arreglo, generará números aleatorios y aplicará ambos algoritmos de ordenamiento para 
+guardo el archivo llamado T2_C31049.c. Luego, hay que escribir el comando gcc T2_C31049.c -o T2_C31049, esto compila el codigo y nos indica si hay errores; si todo esta correcto se creará un archivo ejecutable llamado T2_C31049. Uan vez haciedno esto se puede ejecutar el programa escribiendo ./T2_C31049 en la misma terminal. Al correrlo, el programa pedirá ingresar el tamaño del arreglo, generará números aleatorios y aplicará ambos algoritmos de ordenamiento para 
 finalmente mostrar el tiempo que tardó cada uno de los algoritmos en ordenar los datos del arreglo generado.
 
 ## Ejemplos
